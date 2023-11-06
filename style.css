@@ -1,8 +1,9 @@
 body{
    margin: 0;
 padding: 0;
-background: url(Bliss.png) no-repeat;
+background: url(wallpaper.jpg) no-repeat;
 background-size: cover;
+cursor: url('cursor.png'), auto;
 }
 .box{
     width: 450px;
@@ -12,7 +13,7 @@ background-size: cover;
     margin: 0 auto;
     margin-top: 10%;
     color: white;
-    font-family: 'Consolas',sans-serif;
+    font-family: 'SF Pro',sans-serif;
     border-radius: 25px;
 }
 .box-img{
@@ -26,13 +27,15 @@ height: 200px;
     list-style: none;
 }
 .box li a{
+    transform: scale(1.3);
     color: white;
     text-decoration: none;
     font-size: 60px;
     transition: all ease-in-out 250ms;
 }
-.box li:hover{
-    transform: scale(1.5);
+.box li a:hover{
+    cursor: url('link.png'), auto;
+    transform: scale(1.3);
     transition: transform 0.3s cubic-bezier(0.85, 0, 0.15, 1);
     color: #b9b9b9
 }
